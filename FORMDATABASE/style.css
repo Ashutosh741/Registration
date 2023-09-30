@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right,yellow,white,yellow);
+    height: 100vh;
+}
+
+.container{
+    border: 1px solid black;
+}
+
+input{
+    width: 100%;
+    padding : 15px;
+    margin : 8px;
+    border : 1.2px solid black;
+    font-size: 18px;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.genderContainer{
+    text-align: center;
+    font-size: 18px;
+}
+
+.gender1{
+    width: 10%;
+}
+
+label{
+    font-weight: bold;
+    padding : 10px;
+    font-size: 22px;
+}
